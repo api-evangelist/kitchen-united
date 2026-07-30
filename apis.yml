@@ -1,20 +1,50 @@
 aid: kitchen-united
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kitchen-united.png
 name: Kitchen United
-description: 'Kitchen United is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Kitchen United was a Pasadena, California ghost-kitchen operator that
+  built and ran shared commissary kitchens — branded "Kitchen United Mix" — where multiple
+  restaurant brands cooked out of one facility for delivery and pickup, including a
+  chain of in-store food halls operated with Kroger. Backed by GV (Google Ventures)
+  among others, the company wound down its physical footprint: in late 2023 it announced
+  it would sell or close all remaining units and pivot to licensing its ordering software,
+  and on 2024-03-14 sbe/C3 founder Sam Nazarian acquired its intellectual property and
+  ghost-kitchen assets into a new holding company, Everybody Eats, alongside C3 and
+  Nextbite. Kitchen United never published a public developer API, SDK, CLI or developer
+  portal, and no OpenAPI, AsyncAPI or package-registry artifact exists for it. The
+  kitchenunited.com domain still resolves but now serves a residual WordPress shell
+  whose only remaining page is unrelated SEO spam, so it should not be treated as a
+  live developer surface. This profile is retained as a historical company record.'
 url: https://raw.githubusercontent.com/api-evangelist/kitchen-united/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - gv
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-source: https://www.restaurantdive.com/news/sam-nazarian-buys-kitchen-united-ip-nextbite-c3-everybody-eats/710269/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Ghost Kitchens
+- Restaurants
+- Food Delivery
+- Food Service
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +52,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Lifecycle
+  url: lifecycle/kitchen-united-lifecycle.yml
+- type: WellKnown
+  url: well-known/kitchen-united-well-known.yml
+- type: LLMsTxt
+  url: llms/kitchen-united-llms.txt
+- type: DomainSecurity
+  url: security/kitchen-united-domain-security.yml
 - type: Website
   url: http://kitchenunited.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
