@@ -1,0 +1,57 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.restaurantdive.com/news/sam-nazarian-buys-kitchen-united-ip-nextbite-c3-everybody-eats/710269/
+company_status: defunct
+summary: >-
+  Kitchen United ceased operating as an independent ghost-kitchen company. Its
+  physical footprint was closed or sold through late 2023 and early 2024, and its
+  intellectual property and remaining ghost-kitchen assets were acquired in
+  March 2024. There is no API lifecycle to record because Kitchen United never
+  shipped a public developer API.
+timeline:
+- date: '2023-11'
+  event: >-
+    Kitchen United announces it will sell or close all remaining physical units
+    and pivot to licensing the ordering software it built to run them.
+  source: https://www.restaurantdive.com/news/kitchen-united-closes-kroger-units-sells-or-closes-the-rest-software-pivot/700900/
+- date: '2024-02'
+  event: >-
+    Closure of all Kitchen United Mix physical locations becomes public,
+    including the eight in-store Kroger food halls.
+  source: https://smmirror.com/2024/02/ghost-kitchen-pioneer-kitchen-united-mix-abruptly-shuts-down-all-physical-locations/
+- date: '2024'
+  event: >-
+    Remaining sites transferred to other operators — New York locations to
+    Nimbus Kitchens, Austin to ChefSuite.
+  source: https://www.restaurantdive.com/news/kitchen-united-closes-kroger-units-sells-or-closes-the-rest-software-pivot/700900/
+- date: '2024-03-14'
+  event: >-
+    sbe and C3 founder Sam Nazarian acquires Kitchen United's IP and
+    ghost-kitchen-related assets, folding them into the new holding company
+    Everybody Eats alongside C3 and Nextbite.
+  source: https://www.prnewswire.com/news-releases/sbe-and-c3-founder-sam-nazarian-acquires-kitchen-uniteds-ip--ghost-kitchen-related-assets-and-announces-the-new-holding-company-everybody-eats-a-premium-qsr-and-cpg-brand-company-comprised-of-c3-nextbite-and-kitchen-united-302089344.html
+successor:
+  name: Everybody Eats
+  relationship: acquired-ip-and-assets
+  parties:
+  - C3
+  - Nextbite
+  - sbe
+api:
+  public_api: false
+  openapi: none
+  sdks: none
+  cli: none
+  developer_portal: none
+  status_page: none
+  deprecation_policy: none
+  changelog: none
+domain:
+  host: kitchenunited.com
+  resolves: true
+  serving: >-
+    Residual WordPress installation. The homepage retains the old Kitchen United
+    Mix title, and the only other published page (/santamonica/, dated
+    2026-03-28) is unrelated Thai-language gambling SEO spam. Treat the domain
+    as abandoned/compromised rather than as an active company surface.
+  probed: '2026-07-19'

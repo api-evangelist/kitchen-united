@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://kitchenunited.com/.well-known/*
+host: https://kitchenunited.com
+notes: >-
+  Every well-known discovery path returned 404. The host is a residual WordPress
+  install left on the domain after Kitchen United wound down; it exposes the
+  generic WordPress REST API at /wp-json/ (HTTP 200, 127 routes) but that is
+  platform boilerplate, not a Kitchen United product API, and is deliberately
+  NOT catalogued as an API for this provider.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /openapi.json
+  status: 404
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 200
