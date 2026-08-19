@@ -34,7 +34,7 @@ x-tier: stub
 x-tier-reason: defunct-no-api-surface
 x-status: defunct
 x-status-source: https://www.restaurantdive.com/news/sam-nazarian-buys-kitchen-united-ip-nextbite-c3-everybody-eats/710269/
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
