@@ -64,28 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kitchen United was a Pasadena, California ghost-kitchen operator that built and ran
-shared commissary kitchens — branded "Kitchen United Mix" — where multiple restaurant
-brands cooked out of one facility for delivery and pickup, including a chain of
-in-store food halls operated with Kroger. Backed by GV (Google Ventures) among others.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: defunct.** In late 2023 the company announced it would sell or close all
-remaining physical units and pivot to licensing its ordering software. All Kitchen
-United Mix locations closed, remaining sites were transferred to other operators
-(Nimbus Kitchens, ChefSuite), and on 2024-03-14 sbe/C3 founder Sam Nazarian acquired
-the IP and ghost-kitchen assets into the new holding company Everybody Eats alongside
-C3 and Nextbite.
+Kitchen United was a Pasadena, California ghost-kitchen operator that built and ran shared commissary kitchens — branded "Kitchen United Mix" — where multiple restaurant brands cooked out of one facility for delivery and pickup, including a chain of in-store food halls operated with Kroger. Backed by GV (Google Ventures) among others, the company wound down its physical footprint: in late 2023 it announced it would sell or close all remaining units and pivot to licensing its ordering software, and on 2024-03-14 sbe/C3 founder Sam Nazarian acquired its intellectual property and ghost-kitchen assets into a new holding company, Everybody Eats, alongside C3 and Nextbite. Kitchen United never published a public developer API, SDK, CLI or developer portal, and no OpenAPI, AsyncAPI or package-registry artifact exists for it. The kitchenunited.com domain still resolves but now serves a residual WordPress shell whose only remaining page is unrelated SEO spam, so it should not be treated as a live developer surface. This profile is retained as a historical company record.
 
-**No API surface.** Kitchen United never published a public developer API, SDK, CLI or
-developer portal. The kitchenunited.com domain still resolves but now serves a residual
-WordPress shell whose only remaining page is unrelated SEO spam — it is not a live
-developer surface.
+**Areas:** Company · Consumer · Ghost Kitchens · Restaurant · Food Delivery · Food Service · Defunct
 
-Artifacts in this repo are historical records only:
+## Kitchen United on APIs.io (historical record)
 
-- `lifecycle/kitchen-united-lifecycle.yml` — wind-down timeline and successor
-- `well-known/kitchen-united-well-known.yml` — well-known discovery probe (all 404)
-- `security/kitchen-united-domain-security.yml` — TLS/DNS posture probe
-- `llms/kitchen-united-llms.txt` — generated llms.txt
+Everything profiled for Kitchen United is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kitchen-united/](https://apis.io/providers/kitchen-united/)** — or go straight to one of the APIs or properties below.
 
-Backed by: gv — http://kitchenunited.com
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kitchen United Domain Security](https://apis.io/security/kitchen-united/kitchen-united-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://kitchenunited.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kitchen United: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kitchen-united/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
